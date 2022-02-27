@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+<html lang="en">
+<head>
+  <title>Leonidas Mindrinos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+function toggle_bib( id )
+{
+	var bid = "paper_bib_" + id;
+	var style = document.getElementById( bid ).style;
+	style.display = style.display === "block" ? "none" : "block";
+};
+  </script>
+</style>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse">Home</a></li>
+        <li><a href="#teaching" data-toggle="collapse" data-target=".navbar-collapse">Teaching</a></li>
+        <li><a href="#publications" data-toggle="collapse" data-target=".navbar-collapse">Publications</a></li>
+        <li><a href="#talks" data-toggle="collapse" data-target=".navbar-collapse">Presentations</a></li>
+        <li><a href="#cv" data-toggle="collapse" data-target=".navbar-collapse">CV</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+     <!-- Contact Info on the Sidebar -->
+     <div class="col-md-4 contact-info">
+       <img src="avatar.jpg" alt="leonidas_mindrinos" height="250">
+       <h3><b>Leonidas Mindrinos</b></h3>
+       <div style="font-size: 12px;">
+         <p>Department of Mathematics<br>
+         School of Applied Mathematical and Physics Science<br>
+         National Technical University of Athens<br>
+         Heroon Polytechneiou 9 (Building E), 15780 Zografou, Greece<br>
+         E-mail: leomid[at]central.ntua.gr
+         </p>
+       </div>
+       <!-- Links on the Sidebar -->
+       <p>
+         <dd><a href="https://scholar.google.com/citations?user=tKjRhTAAAAAJ&hl=en" target="_blank">Google Scholar</a> | 
+         <a href="https://www.linkedin.com/in/leonidasmindrinos/" target="_blank">LinkedIn</a> |
+         <a href="https://orcid.org/0000-0002-7807-8153/" target="_blank">ORCID</a> |
+         <a href="https://arxiv.org/a/mindrinos_l_1.html/" target="_blank">ArXiv</a>  |
+         <a href="https://www.researchgate.net/profile/Leonidas-Mindrinos" target="_blank">ResearchGate</a>
+         </dd>
+       </p>
+     </div>
+      <!-- Entries Column -->
+     <div class="col-md-8" >
+       <!-- Main Image -->
+       <div style="text-align:justify;">
+         <h4>Short Bio</h4>
+          <p>I am a postdoctoral researcher at the <a href="http://www1.math.ntua.gr/?page_id=32481">Department of Mathematics</a> of the <a href="http://semfe.ntua.gr/en/">School of Applied Mathematical and Physics Science (SEMFE)</a> at the <a href = "https://www.ntua.gr/">National Technical University of Athens (NTUA),</a> Greece.</p>
+         <p>Prior to that I was an assistant professor (for 5,5 years) and research assistant (for 3 years) at the <a href="https://mathematik.univie.ac.at/en/">Faculty of Mathematics</a> 	at the <a href = "https://www.univie.ac.at/en/">University of Vienna</a> and research scientist (for 1 year) at the <a href = "https://www.oeaw.ac.at/ricam/home">Radon Institute</a> of the Austrian Academy of Sciences in Austria.</p>
+         <p>I got my habilitation on mathematics from the University of Vienna in 2018.	I did my MSc and PhD on applied mathematics at SEMFE (NTUA). My bachelor's degree was in mathematics at the <a href="https://www.math.uoa.gr/">Department of Mathematics</a> at the National and Kapodistrian University of Athens in 2006.</p>
+         <h4>Research Interests</h4>
+         <ul>
+         <li>direct and inverse scattering problems</li>
+         <li>medical imaging</li>
+         <li>mathematical modeling</li>
+         <li>data analysis</li>
+         </ul>
+       </div>
+     </div>
+     <!-- Teaching -->
+     <div class="col-md-8" >
+       <h2><div id="teaching" class="jump"></div>Teaching</h2>
+       <p><strong>National Technical University of Athens, Greece</strong></p>
+       <p>School of Applied Mathematical and Physics Science</p>
+       <ul>
+         <li>9106 Λογισμικό για τα Μαθηματικά, τη Φυσική και τη Διδασκαλία τους (εαρινό, 2022)</li>
+         <li>9350 Μερικές Διαφορικές Εξισώσεις ΙΙ (εαρινό, 2022)</li>
+       </ul>
+        <p><strong>University of Vienna, Austria</strong></p>
+        <p>Faculty of Mathematics</p>
+        <ul>
+          <li>250101 Inverse Problems (summer, 2015)</li>
+          <li>250112 Optimization in Function Spaces (summer, 2014)</li>
+          <li>250061 Tutorial on numerical mathematics (summer, 2013)</li>
+        </ul>
+        <p>Faculty of Physics</p>
+        <ul>
+          <li>269011 Numerical Methods III - Optimisation (summer, 2016, 2017, 2018)</li>
+          <li>269012 Numerical Methods IV - Partial Differential Equations (summer, 2016, 2017, 2018)</li>
+          <li> 269006 Numerical Methods I - Exercises (winter, 2013, 2014, 2017)</li>
+          <li> 269007 Numerical Methods II (winter, 2015)</li>
+          <li> 269008 Numerical Methods II - Exercises (winter, 2013, 2014, 2015)</li>
+        </ul>
+        <p>Faculty of Computer Science</p>
+        <ul>
+          <li>050043 Continuous Optimization (summer, 2014, 2015)</li>
+          <li>050129 Discrete Optimization (winter, 2013, 2014)</li>
+        </ul>
+        <p>Department of Meteorology and Geophysics</p>
+        <ul>
+          <li>280390 Inverse Problems (winter, 2015, 2016, 2017)</li>
+        </ul>
+      </div>
+
+      <!-- Publications -->
+      <div class="col-md-8" >    
+      <h2><div id="publications" class="jump"></div>Publications</h2>
+      <p><strong>Journal Publications</strong></p>
+      <ul>
+				<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">R.&nbsp;Chapko and L.&nbsp;Mindrinos</span>, <a href="https://www.mdpi.com/2227-7390/10/5/750" target="_blank" class="paper-title">On the numerical solution of a hyperbolic inverse boundary value problem in bounded domains</a>,  <span class="paper-journal">Mathematics</span>, <span class="paper_pages">10(5):750</span>, <span class="paper_year">2022</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ChaMin22');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ChaMin22_report" style="display:none;">@article{ChaMin22,
+  author     = {Chapko, R. and Mindrinos, L.},
+  title      = {On the numerical solution of a hyperbolic inverse boundary value problem in bounded domains},
+ journal    = {Mathematics},
+ volume = {10},
+ number = {5},
+ pages = {750},
+  url        = {https://www.mdpi.com/2227-7390/10/5/750},
+  year       = {2022},
+}
+</div>
+</li>
+		<li class="paper"> 
+				<div class="paperbody">
+		
+		<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and L.&nbsp;Veselka,</span> <a href="http://dx.doi.org/https://doi.org/10.1007/978-3-030-57784-1_8" target="_blank" class="paper-title">Quantitative OCT reconstructions for dispersive media</a>, In <span class="paper-book">B.&nbsp;Kaltenbacher, T.&nbsp;Schuster and A.&nbsp;Wald (editors) <span class="paper-booktitle">Time-dependent Problems in Imaging and Parameter Identification</span></span>, <span class="paper_pages">229&ndash;266</span>, <span class="paper_publisher">Springer, Cham</span>, <span class="paper_year">2021</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinVes21');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+				<div class="paper-bib" id="paper_bib_ElbMinVes21" style="display:none;">@incollection{ElbMinVes21,
+  author     = {Elbau, P. and Mindrinos, L. and Veselka, L.},
+  title      = {Quantitative OCT reconstructions for dispersive media},
+  booktitle  = {Time-dependent Problems in Imaging and Parameter Identification},
+  doi        = {https://doi.org/10.1007/978-3-030-57784-1_8},
+  editor     = {Kaltenbacher, B. and Schuster, T. and Wald, A.},
+  pages      = {229--266},
+  publisher  = {Springer, Cham},
+  year       = {2021},
+}
+</div>
+</li>
+				<li class="paper"> 
+				<div class="paperbody">
+				<span class="paper-author">A.&nbsp;Kittenberger, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <span class="paper-title">Computed Origami Tomography,</span> <span class="paper-journal">SIAM Review</span>, <span class="paper_pages">(to appear)</span>, <span class="paper_year">2021</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('KitMinSch21');"><img src="bibtexicon.png" alt="BibTeX"></a>, </span> <a href = "https://arxiv.org/abs/2006.03446" target = "_blank">arXiv</a>)</div>
+<div class="paper-bib" id="paper_bib_KitMinSch21" style="display:none;">@article{KitMinSch21,
+  author     = {Kittenberger, A. and Mindrinos, L. and Scherzer, O.},
+  title      = {Computed Origami Tomography},
+  journal    = {{SIAM} Rev.},
+  fjournal   = {{SIAM} Review},
+  pages      = {(to appear)},
+  year       = {2021},
+}
+</div>
+</li>
+				
+					<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">L.&nbsp;Veselka, L.&nbsp;Krainz, L.&nbsp;Mindrinos, W.&nbsp;Drexler and P.&nbsp;Elbau,</span> <a href="http://dx.doi.org/10.3390/s21206864" target="_blank" class="paper-title">A Quantitative Model for Optical Coherence Tomography</a>, <span class="paper-journal">Sensors</span>, <span class="paper_pages">21(20):6864</span>, <span class="paper_year">2021</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('VesKraMinDreElb21');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_VesKraMinDreElb21" style="display:none;">@article{VesKraMinDreElb21,
+  author     = {Veselka, L. and Krainz, L. and Mindrinos, L. and Drexler, W. and Elbau, P. },
+  title      = {A Quantitative Model for Optical Coherence Tomography},
+  doi        = {10.3390/s21206864},
+  journal    = {Sens.},
+  fjournal   = {Sensors},
+  number     = {20},
+  pages      = {6864},
+  url        = {https://www.mdpi.com/1424-8220/21/20/6864},
+  volume     = {21},
+  year       = {2021},
+}
+</div>
+</li>
+
+
+					<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">D.&nbsp;Gintides, S.&nbsp;Giogiakas and L.&nbsp;Mindrinos</span>, <a href="https://arxiv.org/abs/2004.14082" target="_blank" class="paper-title">The direct electromagnetic scattering problem by a piecewise constant inhomogeneous cylinder at oblique incidence</a> <span class="paper_reporttype">Preprint on ArXiv</span>, arXiv:2004.14082, <span class="paper_year">2020</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinGioMin20_report');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinGioMin20_report" style="display:none;">@techreport{GinGioMin20_report,
+  author     = {Gintides, D. and Giogiakas, S. and Mindrinos, L.},
+  title      = {The direct electromagnetic scattering problem by a piecewise constant inhomogeneous cylinder at oblique incidence},
+  number     = {arXiv:2004.14082},
+  type       = {Preprint on ArXiv},
+  url        = {https://arxiv.org/abs/2004.14082},
+  year       = {2020},
+}
+</div>
+</li>
+
+
+					<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">R.&nbsp;Chapko, B.&nbsp;T.&nbsp;Johansson and L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/https://doi.org/10.1016/j.cam.2019.112463" target="_blank" class="paper-title">On a boundary integral solution of a lateral planar Cauchy problem in elastodynamics</a>, <span class="paper-journal">Journal of Computational and Applied Mathematics</span>, <span class="paper_pages">367:112463</span>, <span class="paper_year">2020</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ChaJohMin20');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ChaJohMin20" style="display:none;">@article{ChaJohMin20,
+  author     = {Chapko, R. and Johansson, B.~T. and Mindrinos, L.},
+  title      = {On a boundary integral solution of a lateral planar Cauchy problem in elastodynamics},
+  doi        = {https://doi.org/10.1016/j.cam.2019.112463},
+  issn       = {0377-0427},
+  pages      = {112463},
+  volume     = {367},
+  year       = {2020},
+}
+</div>
+</li>
+
+
+	
+
+
+					<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">R.&nbsp;Chapko and L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/10.1007/s10665-019-10028-4" target="_blank" class="paper-title">On the non-linear integral equation approach for an inverse boundary value problem for the heat equation</a>, <span class="paper-journal">Journal of Engineering Mathematics</span>, <span class="paper_pages">119(1):255&ndash;268</span>, <span class="paper_year">2019</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ChaMin19');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ChaMin19" style="display:none;">@article{ChaMin19,
+  author     = {Chapko, R. and Mindrinos, L.},
+  title      = {On the non-linear integral equation approach for an inverse boundary value problem for the heat equation},
+  doi        = {10.1007/s10665-019-10028-4},
+  number     = {1},
+  pages      = {255--268},
+  volume     = {119},
+  year       = {2019},
+}
+</div>
+</li>
+
+
+					<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">D.&nbsp;Gintides and L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/10.1080/00036811.2017.1402891" target="_blank" class="paper-title">The inverse electromagnetic scattering problem by a penetrable cylinder at oblique incidence</a>, <span class="paper-journal">Applicable Analysis</span>, <span class="paper_pages">98:781&ndash;798</span>, <span class="paper_year">2019</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinMin19');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinMin19" style="display:none;">@article{GinMin19,
+  author     = {Gintides, D. and Mindrinos, L.},
+  title      = {The inverse electromagnetic scattering problem by a penetrable cylinder at oblique incidence},
+  doi        = {10.1080/00036811.2017.1402891},
+  issue      = {4},
+  journal    = {Appl. Anal.},
+  fjournal   = {Applicable Analysis},
+  pages      = {781--798},
+  pdf        = {https://www.tandfonline.com/doi/pdf/10.1080/00036811.2017.1402891?needAccess=true},
+  url        = {http://www.tandfonline.com/doi/full/10.1080/00036811.2017.1402891},
+  volume     = {98},
+  year       = {2019},
+}
+</div>
+</li>
+
+				<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/10.1093/imamat/hxy059" target="_blank" class="paper-title">The electromagnetic scattering problem by a cylindrical doubly connected domain at oblique incidence: the direct problem,</a> <span class="paper-journal">IMA Journal of Applied Mathematics</span>, <span class="paper_pages">84:292&ndash;311</span>, <span class="paper_year">2019</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('Min19');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_Min19" style="display:none;">@article{Min19,
+  author     = {Mindrinos, L.},
+  title      = {The electromagnetic scattering problem by a cylindrical doubly connected domain at oblique incidence: the direct problem},
+  doi        = {10.1093/imamat/hxy059},
+  issue      = {2},
+  journal    = {{IMA} J. Appl. Math.},
+  fjournal   = {{IMA} Journal of Applied Mathematics},
+  pages      = {292--311},
+  url        = {https://academic.oup.com/imamat/advance-article/doi/10.1093/imamat/hxy059/5161356},
+  volume     = {84},
+  year       = {2019},
+}
+</div>
+</li>
+
+				<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">R.&nbsp;Chapko, D.&nbsp;Gintides and L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/10.1007/s10444-017-9550-z" target="_blank" class="paper-title">The inverse scattering problem by an elastic inclusion</a>, <span class="paper-journal">Advances in Computational Mathematics</span>, <span class="paper_pages">44:453&ndash;476</span>, <span class="paper_year">2018</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ChaGinMin18');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ChaGinMin18" style="display:none;">@article{ChaGinMin18,
+  author     = {Chapko, R. and Gintides, D. and Mindrinos, L.},
+  title      = {The inverse scattering problem by an elastic inclusion},
+  doi        = {10.1007/s10444-017-9550-z},
+  issue      = {2},
+  journal    = {Adv. Comput. Math.},
+  fjournal   = {Advances in Computational Mathematics},
+  pages      = {453--476},
+  volume     = {44},
+  year       = {2018},
+}
+</div>
+</li>
+
+				<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">R.&nbsp;Chapko and L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/10.1216/JIE-2018-30-4-521" target="_blank" class="paper-title">On the numerical solution of the exterior elastodynamic problem by a boundary integral equation method</a>, <span class="paper-journal">Journal of Integral Equations and Applications</span>, <span class="paper_pages">30(4):521&ndash;542</span>, <span class="paper_year">2018</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ChaMin17');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ChaMin17" style="display:none;">@article{ChaMin17,
+  author     = {Chapko, R. and Mindrinos, L.},
+  title      = {On the numerical solution of the exterior elastodynamic problem by a boundary integral equation method},
+  doi        = {10.1216/JIE-2018-30-4-521},
+  journal    = {J. Integral Equations Appl.},
+  fjournal   = {Journal of Integral Equations and Applications},
+  number     = {4},
+  pages      = {521--542},
+  url        = {https://projecteuclid.org/euclid.jiea/1543482175},
+  volume     = {30},
+  year       = {2018},
+}
+</div>
+</li>
+
+
+
+				<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <a href="http://dx.doi.org/10.1088/1361-6420/aa9ae7" target="_blank" class="paper-title">Quantitative reconstructions in multi-modal photoacoustic and optical coherence tomography imaging</a>, <span class="paper-journal">Inverse Problems</span>, <span class="paper_pages">34(1):014006</span>, <span class="paper_year">2018</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch18');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch18" style="display:none;">@article{ElbMinSch18,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {Quantitative reconstructions in multi-modal photoacoustic and optical coherence tomography imaging},
+  doi        = {10.1088/1361-6420/aa9ae7},
+  journal    = {Inverse Probl.},
+  fjournal   = {Inverse Problems},
+  number     = {1},
+  pages      = {014006},
+  pdf        = {https://iopscience.iop.org/article/10.1088/1361-6420/aa9ae7/pdf},
+  url        = {http://stacks.iop.org/0266-5611/34/i=1/a=014006},
+  volume     = {34},
+  year       = {2018},
+}
+
+</div>
+</li>
+
+
+				<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <a href="http://dx.doi.org/10.1007/s13137-017-0102-y" target="_blank" class="paper-title">The inverse scattering problem for orthotropic media in polarization-sensitive optical coherence tomography</a>, <span class="paper-journal">GEM - International Journal on Geomathematics</span>, <span class="paper_pages">9(1):145&ndash;165</span>, <span class="paper_year">2018</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch18a');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch18a" style="display:none;">@article{ElbMinSch18a,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {The inverse scattering problem for orthotropic media in polarization-sensitive optical coherence tomography},
+  doi        = {10.1007/s13137-017-0102-y},
+  journal    = {GEM. Int. J. Geomath.},
+  fjournal   = {GEM - International Journal on Geomathematics},
+  number     = {1},
+  pages      = {145--165},
+  url        = {https://link.springer.com/content/pdf/10.1007%2Fs13137-017-0102-y.pdf},
+  volume     = {9},
+  year       = {2018},
+}
+</div>
+</li>	
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">H.&nbsp;Akhouayri, M.&nbsp;Bergounioux, A.&nbsp;Da Silva, P.&nbsp;Elbau, A.&nbsp;Litman and L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/10.1515/jiip-2016-0012" target="_blank" class="paper-title">Quantitative thermoacoustic tomography with microwaves sources</a>, <span class="paper-journal">Journal of Inverse and Ill-Posed Problems</span>, <span class="paper_pages">25(6):703&ndash;717</span>, <span class="paper_year">2017</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('AkhBerSilElbLit16');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_AkhBerSilElbLit16" style="display:none;">@article{AkhBerSilElbLit16,
+  author     = {Akhouayri, H. and Bergounioux, M. and Da Silva, A. and Elbau, P. and Litman, A. and Mindrinos, L.},
+  title      = {Quantitative thermoacoustic tomography with microwaves sources},
+  doi        = {10.1515/jiip-2016-0012},
+  journal    = {J. Inverse Ill-Posed Probl.},
+  fjournal   = {Journal of Inverse and Ill-Posed Problems},
+  number     = {6},
+  pages      = {703--717},
+  volume     = {25},
+  year       = {2017},
+}
+</div>
+</li>	
+	
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <a href="http://dx.doi.org/10.1002/mma.3915" target="_blank" class="paper-title">Inverse problems of combined photoacoustic and optical coherence tomography</a>, <span class="paper-journal">Mathematical Methods in the Applied Sciences</span>, <span class="paper_pages">40(3):505&ndash;522</span>, <span class="paper_year">2017</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch17');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch17" style="display:none;">@article{ElbMinSch17,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {Inverse problems of combined photoacoustic and optical coherence tomography},
+  doi        = {10.1002/mma.3915},
+  journal    = {Math. Methods Appl. Sci.},
+  fjournal   = {Mathematical Methods in the Applied Sciences},
+  number     = {3},
+  pages      = {505--522},
+  url        = {http://onlinelibrary.wiley.com/doi/10.1002/mma.3915/epdf},
+  volume     = {40},
+  year       = {2017},
+}
+</div>
+</li>	
+
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+
+<span class="paper-author">D.&nbsp;Gintides and L.&nbsp;Mindrinos,</span> <a href="http://dx.doi.org/10.1216/JIE-2016-28-1-91" target="_blank" class="paper-title">The direct scattering problem of obliquely incident electromagnetic waves by a penetrable homogeneous cylinder</a>, <span class="paper-journal">Journal of Integral Equations and Applications</span>, <span class="paper_pages">28(1):91&ndash;122</span>, <span class="paper_year">2016</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinMin16');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinMin16" style="display:none;">@article{GinMin16,
+  author     = {Gintides, D. and Mindrinos, L.},
+  title      = {The direct scattering problem of obliquely incident electromagnetic waves by a penetrable homogeneous cylinder},
+  doi        = {10.1216/JIE-2016-28-1-91},
+  journal    = {J. Integral Equations Appl.},
+  fjournal   = {Journal of Integral Equations and Applications},
+  number     = {1},
+  pages      = {91--122},
+  url        = {http://projecteuclid.org/euclid.jiea/1460727506},
+  volume     = {28},
+  year       = {2016},
+}
+</div>
+</li>	
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <a href="http://dx.doi.org/10.1007/978-1-4939-0790-8_44" target="_blank" class="paper-title">Mathematical Methods of Optical Coherence Tomography</a>, In <span class="paper-book">O.&nbsp;Scherzer, editor, <span class="paper-booktitle">Handbook of Mathematical Methods in Imaging</span></span>, <span class="paper_pages">1169&ndash;1204</span>. <span class="paper_publisher">Springer New York</span>, <span class="paper_year">2015</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch15');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch15" style="display:none;">@incollection{ElbMinSch15,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {Mathematical Methods of Optical Coherence Tomography},
+  booktitle  = {Handbook of Mathematical Methods in Imaging},
+  doi        = {10.1007/978-1-4939-0790-8_44},
+  editor     = {Scherzer, O.},
+  pages      = {1169--1204},
+  publisher  = {Springer New York},
+  url        = {http://link.springer.com/referenceworkentry/10.1007/978-1-4939-0790-8_44},
+  year       = {2015},
+}
+</div>
+</li>	
+
+
+        
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">D.&nbsp;Gintides and L.&nbsp;Midrinos</span>, <a href="http://dx.doi.org/10.1002/zamm.201000098" target="_blank" class="paper-title">Inverse scattering problem for a rigid scatterer or a cavity in elastodynamics</a> <span class="paper-journal">Journal of Applied Mathematics and Mechanics</span>, <span class="paper_pages">91(4):276&ndash;287</span>, <span class="paper_year">2011</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinMid11');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinMid11" style="display:none;">@article{GinMid11,
+  author     = {Gintides, D. and Midrinos, L.},
+  title      = {Inverse scattering problem for a rigid scatterer or a cavity in elastodynamics},
+  doi        = {10.1002/zamm.201000098},
+  number     = {4},
+  pages      = {276--287},
+  volume     = {91},
+  year       = {2011},
+}
+
+</div>
+</li>	
+
+
+
+
+
+        </ul>
+		
+		<p>&nbsp;</p>
+            
+                <strong>Conference Publications (peer-reviewed)</strong>
+				
+				
+				<ul>
+				
+								<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and L.&nbsp;Veselka,</span> <a href="http://dx.doi.org/10.1007/978-3-030-48634-1_8" target="_blank" class="paper-title">Reconstructing the Optical Parameters of a Layered Medium with Optical Coherence Elastography</a>, In <span class="paper-book">L.&nbsp;Beilina, M.&nbsp;Bergounioux, M.&nbsp;Christofol, A.&nbsp;Da Silva and A.&nbsp;Litman, editors, <span class="paper-booktitle">Mathematical and Numerical Approaches for Multi-Wave Inverse Problems</span></span>, <span class="paper_pages">(328)105&ndash;126</span>. <span class="paper_publisher">Springer</span>, <span class="paper_year">2020</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinVes20');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinVes20" style="display:none;">@inproceedings{ElbMinVes20,
+  author     = {Elbau, P. and Mindrinos, L. and Veselka, L.},
+  title      = {Reconstructing the Optical Parameters of a Layered Medium with Optical Coherence Elastography},
+  booktitle  = {Mathematical and Numerical Approaches for Multi-Wave Inverse Problems},
+  doi        = {10.1007/978-3-030-48634-1_8},
+  editor     = {Beilina, L. and Bergounioux, M. and Christofol, M. and Da Silva, A. and Litman, A.},
+  number     = {328},
+  pages      = {105--126},
+  publisher  = {Springer},
+  series     = {Springer Proceedings in Mathematics \&amp; Statistics},
+  year       = {2020},
+}
+</div>
+</li>
+
+				<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">R.&nbsp;Chapko and L.&nbsp;Mindrinos,</span> <a href="https://ami.lnu.edu.ua/ucam/docs/conf2017_final.pdf" target="_blank" class="paper-title">On the numerical solution of the elastodynamic problem by a combination of the laguere transformation and the boundary integral equation method</a>, In <span class="paper-book"><span class="paper-booktitle">Proceedings of the International Ukrainian Conference on Applied Mathematics (UCAM 2017)</span></span>, <span class="paper_pages">29&ndash;31</span>. <span class="paper_publisher">Ivan Franko National University of Lviv</span>, <span class="paper_year">2018</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ChaMin17b');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ChaMin17b" style="display:none;">@inproceedings{ChaMin17b,
+  author     = {Chapko, R. and Mindrinos, L.},
+  title      = {On the numerical solution of the elastodynamic problem by a combination of the laguere transformation and the boundary integral equation method},
+  booktitle  = {Proceedings of the International Ukrainian Conference on Applied Mathematics (UCAM 2017)},
+  isbn       = {978-617-7065-76-9},
+  location   = {Lviv},
+  pages      = {29--31},
+  pdf        = {http://ami.lnu.edu.ua/ucam/docs/conf2017_final.pdf},
+  publisher  = {Ivan Franko National University of Lviv},
+  url        = {https://ami.lnu.edu.ua/ucam/docs/conf2017_final.pdf},
+  year       = {2018},
+}
+</div>
+</li>
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <a href="http://dx.doi.org/10.1364/MATH.2017.MW3C.3" target="_blank" class="paper-title">Modeling polarization-sensitive OCT using inverse scattering techniques</a>, In <span class="paper-book"><span class="paper-booktitle">Imaging and Applied Optics 2017</span></span>, <span class="paper_pages">MW3C.3</span>. <span class="paper_publisher">Optical Society of America</span>, <span class="paper_year">2017</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch17b');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch17b" style="display:none;">@inproceedings{ElbMinSch17b,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {Modeling polarization-sensitive OCT using inverse scattering techniques},
+  booktitle  = {Imaging and Applied Optics 2017},
+  doi        = {10.1364/MATH.2017.MW3C.3},
+  location   = {OSA Imaging and Applied Optics Congress, San Francisco, California, United States},
+  pages      = {MW3C.3},
+  publisher  = {Optical Society of America},
+  year       = {2017},
+}
+</div>
+</li>	
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <a href="http://dx.doi.org/10.1364/MATH.2016.MW5H.6" target="_blank" class="paper-title">The Inverse Scattering Problem in Optical Coherence Tomography</a>, In <span class="paper-book"><span class="paper-booktitle">Imaging and Applied Optics 2016</span></span>, <span class="paper_pages">MW5H.6</span>. <span class="paper_publisher">Optical Society of America</span>, <span class="paper_year">2016</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch16a');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch16a" style="display:none;">@inproceedings{ElbMinSch16a,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {The Inverse Scattering Problem in Optical Coherence Tomography},
+  booktitle  = {Imaging and Applied Optics 2016},
+  doi        = {10.1364/MATH.2016.MW5H.6},
+  location   = {Imaging and Applied Optics 2016 congress in Heidelberg, Germany from 25 until 28 July 2016},
+  pages      = {MW5H.6},
+  publisher  = {Optical Society of America},
+  year       = {2016},
+}
+</div>
+</li>	
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer,</span> <a href="http://dx.doi.org/10.4171/OWR/2016/45" target="_blank" class="paper-title">The inverse electromagnetic scattering problem in OCT for anisotropic media</a>, In <span class="paper-book">F.&nbsp;Cakoni, M.&nbsp;Hanke-Bourgeois, A.&nbsp;Kirsch and W.&nbsp;Rundell (editors) <span class="paper-booktitle">Oberwolfach Conference: Theory and Numerics of Inverse Scattering Problems</span></span>, <span class="paper_pages">13:2612&ndash;2615</span>. <span class="paper_publisher">EMS Publishing House</span>, <span class="paper_year">2016</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch16b');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch16b" style="display:none;">@inproceedings{ElbMinSch16b,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {The inverse electromagnetic scattering problem in OCT for anisotropic media},
+  booktitle  = {Oberwolfach Conference: Theory and Numerics of Inverse Scattering Problems},
+  doi        = {10.4171/OWR/2016/45},
+  editor     = {Cakoni, F. and Hanke-Bourgeois, M. and Kirsch, A. and Rundell, W.},
+  issue      = {3},
+  pages      = {2612--2615},
+  publisher  = {EMS Publishing House},
+  series     = {Oberwolfach reports},
+  url        = {https://www.mfo.de/document/1638b/OWR_2016_45.pdf},
+  volume     = {13},
+  year       = {2016},
+}
+</div>
+</li>	
+
+
+        
+	<li class="paper"> 
+				<div class="paperbody">
+				<span class="paper-author">P.&nbsp;Elbau, L.&nbsp;Mindrinos and O.&nbsp;Scherzer</span>, <a href="http://dx.doi.org/10.4171/OWR/2014/37" target="_blank" class="paper-title">Mathematical Modeling of Optical Coherence Tomography</a>, In <span class="paper-book"><span class="paper-booktitle">Oberwolfach Conference: Mathematics and Algorithms in Tomography</span></span>, <span class="paper_pages">2053&ndash;2054</span>. <span class="paper_publisher">Mathematisches Forschungsinstitut Oberwolfach</span>, <span class="paper_year">2014</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('ElbMinSch14');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_ElbMinSch14" style="display:none;">@inproceedings{ElbMinSch14,
+  author     = {Elbau, P. and Mindrinos, L. and Scherzer, O.},
+  title      = {Mathematical Modeling of Optical Coherence Tomography},
+  booktitle  = {Oberwolfach Conference: Mathematics and Algorithms in Tomography},
+  doi        = {10.4171/OWR/2014/37},
+  pages      = {2053--2054},
+  publisher  = {Mathematisches Forschungsinstitut Oberwolfach},
+  year       = {2014},
+}
+</div>
+</li>	
+
+
+        
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">D.&nbsp;Gintides and L.&nbsp;Mindrinos</span>, <a href="GinMin11b.pdf" target="_blank" class="paper-title">The detection of an inclusion in 2-D linear elasticity using non-linear integral equations</a>, In <span class="paper-book"><span class="paper-booktitle">Conference Proceedings of the 2nd International Conference on Inverse Problems in Mechanics of Structures and Materials (IPM 2011)</span></span>, <span class="paper_pages">27&ndash;28</span>, <span class="paper_year">2011</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinMin11b');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinMin11b" style="display:none;">@inproceedings{GinMin11b,
+  author     = {Gintides, D. and Mindrinos, L.},
+  title      = {The detection of an inclusion in 2-D linear elasticity using non-linear integral equations},
+  booktitle  = {Conference Proceedings of the 2nd International Conference on Inverse Problems in Mechanics of Structures and Materials (IPM 2011)},
+  pages      = {27--28},
+  year       = {2011},
+}
+
+</div>
+</li>	
+
+
+<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">D.&nbsp;Gintides and L.&nbsp;Midrinos</span>, <a href="GinMin10a.pdf" target="_blank" class="paper-title">The inverse scattering problem in linear elasticity for
+few incident waves using nonlinear integral equations</a>, In <span class="paper-booktitle">J. A. Murillo and F. Periago (editors) Proceedings Book of the Fifth
+International Conference on Inverse Problems, Control and Shape Optimization</span></span>, <span class="paper_pages">167&ndash;172</span>,  <span class="paper_year">2010</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinMid10a');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinMid10" style="display:none;">@inproceedings{GinMid10a,
+  author     = {Gintides, D. and Midrinos, L.},
+  title      = {The inverse scattering problem in linear elasticity for few incident waves using nonlinear integral equations},
+  booktitle  = {Proceedings Book of the Fifth International Conference on Inverse Problems, Control and Shape Optimization},
+  doi        = {10.1142/9789814322034_0002},
+  editor     = {Murillo, J. A. and Periago, F.},
+  pages      = {167--172},
+  publisher  = {World Scientific},
+  year       = {2010},
+}
+
+</div>
+</li>	
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">D.&nbsp;Gintides and L.&nbsp;Midrinos</span>, <a href="http://dx.doi.org/10.1142/9789814322034_0002" target="_blank" class="paper-title">The inverse scattering problem in linear elasticity via a pair of nonlinear integral equations</a>, In <span class="paper-book">A.&nbsp;Charalambopoulos, D. I.&nbsp;Fotiadis and D.&nbsp;Polyzos (editors) <span class="paper-booktitle">Advanced Topics in Scattering and Biomedical Engineering</span></span>, <span class="paper_pages">12&ndash;19</span>. <span class="paper_publisher">World Scientific</span>, <span class="paper_year">2010</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinMid10');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinMid10" style="display:none;">@inproceedings{GinMid10,
+  author     = {Gintides, D. and Midrinos, L.},
+  title      = {The inverse scattering problem in linear elasticity via a pair of nonlinear integral equations},
+  booktitle  = {Advanced Topics in Scattering and Biomedical Engineering},
+  doi        = {10.1142/9789814322034_0002},
+  editor     = {Charalambopoulos, A. and Fotiadis, D. I. and Polyzos, D.},
+  pages      = {12--19},
+  publisher  = {World Scientific},
+  series     = {Proceedings of the 9th International Workshop on Mathematical Methods in Scattering Theory and Biomedical Engineering},
+  year       = {2010},
+}
+
+</div>
+</li>	
+
+
+	<li class="paper"> 
+				<div class="paperbody">
+<span class="paper-author">D.&nbsp;Gintides, K.&nbsp;Kiriaki, A.&nbsp;Lygidaki and L.&nbsp;Midrinos</span>, <a href="http://dx.doi.org/10.1142/9789812814852_0005" target="_blank" class="paper-title">The detection of point scatterers in a waveguide</a>, In <span class="paper-book">A.&nbsp;Charalambopoulos, D. I.&nbsp;Fotiadis and D.&nbsp;Polyzos (editors) <span class="paper-booktitle">Advanced Topics in Scattering and Biomedical Engineering</span></span>, <span class="paper_pages">38&ndash;46</span>. <span class="paper_publisher">World Scientific</span>, <span class="paper_year">2008</span> <span class="paper-bibtex">(<a href="javascript:toggle_bib('GinKirLygMid08');"><img src="bibtexicon.png" alt="BibTeX"></a>)</span></div>
+<div class="paper-bib" id="paper_bib_GinKirLygMid08" style="display:none;">@inproceedings{GinKirLygMid08,
+  author     = {Gintides, D. and Kiriaki, K. and Lygidaki, A. and Midrinos, L.},
+  title      = {The detection of point scatterers in a waveguide},
+  booktitle  = {Advanced Topics in Scattering and Biomedical Engineering},
+  doi        = {10.1142/9789812814852_0005},
+  editor     = {Charalambopoulos, A. and Fotiadis, D. I. and Polyzos, D.},
+  pages      = {38--46},
+  publisher  = {World Scientific},
+  series     = {Proceedings of the 8th International Workshop on Mathematical Methods in Scattering Theory and Biomedical Engineering},
+  year       = {2008},
+}
+
+</div>
+</li>	
+
+
+          
+		  </ul>
+		  </div>
+          <!-- Talks -->
+          <div class="col-md-8" >
+          <h2><div id="talks" class="jump"></div>Presentations</h2>
+          <p><strong>Invited Talks (TOP 10)</strong></p>
+          <ul>
+            <li> <b>Refractive index reconstructions in coupled physics imaging</b>, IS20: SIAM Conference 
+on Imaging Science (virtual), Toronto, Canada 2020 </li>
+            <li> <b>An iterative method for solving numerically the exterior elastodynamic problem in 
+planar unbounded domains</b>, Applied Inverse Problems Conference (AIP), Grenoble, France 2019</li>
+            <li> <b>A two-parameter reconstruction in PAT/OCT imaging</b>, Applied Inverse Problems Conference (AIP), Grenoble, France 2019</li>
+            <li> <b>Reconstructing the optical properties of a medium from the coupled physics PAT/OCT system</b>, Joint Mathematics Meetings - SIAM Minisymposium, Baltimore, USA 2019</li>
+            <li>  <b>A reconstruction method for multi-modal imaging</b>, SIAM Conference on Imaging Science, Bologna, Italy 2018</li>
+            <li>  <b>The electromagnetic scattering problem by an infinitely long cylinder at oblique incidence</b>, Inverse Problems: Modeling and Simulation (IPMS), Mellieha, Malta 2018</li>
+            <li>  <b>Quantitative Polarized-sensitive Optical Coherence Tomography for orthotropic media</b>, The 9th Applied Inverse Problems Conference (AIP), Hangzhou, China 2017</li>
+            <li>  <b>The scattering problem of obliquely incident electromagnetic waves</b>, Workshop Inverse Problems in the ALPS, Obergurgl, Austria 2016</li>
+            <li>  <b>The direct electromagnetic scattering problem by an infinitely long dielectric cylinder</b>, Σεμινάριο Τομέα Μαθηματικών, ΣΕΜΦΕ (ΕΜΠ), Αθήνα 2016</li>
+            <li>  <b>Reconstruction Model for Determining Optical Properties of a Sample in Optical Coherence Tomography</b>, AIPC 2013: Applied Inverse Problem Conference, Daejeon, Korea 2013</li>
+          </ul>
+        </div>
+        <div class="col-md-8" style="height: 100vh;">    
+        <h2><div id="cv" class="jump"></div>Curriculum Vitae</h2>
+        <ul>
+          <li> <a href="cv_mindrinos_en.pdf" target = "_blank"><strong> CV in English </strong></a> </li>
+          <li> <a href="cv_mindrinos_gr.pdf" target = "_blank"><strong> CV in Greek</strong></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
